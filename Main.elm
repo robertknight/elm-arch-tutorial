@@ -13,10 +13,10 @@ import Effects exposing (Never)
 import Task exposing (Task)
 import StartApp exposing (start)
 
-import ImageViewerList exposing (init, update, view)
+import SpinSquarePair exposing (init, update, view)
 
 
-app = start { init  = init ["cats", "dogs"]
+app = start { init  = init
       , inputs = []
       , update = update
       , view = view
